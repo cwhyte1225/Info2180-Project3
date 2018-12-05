@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <!--- PUT COMMENTS ON THE CHANGES MADE PLEASE SO EVERYBODY CAN OVERS WHATS TAKING PLACE IN THE CODE--->
+    <head>
+        <title> HIRE ME</title>
+        <script type="text/javascript" src="hireme.js"></script>
+        <link href="styles/home.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div id='top'>
+            <h2>Hireme</h2>
+        </div>
+        
+        <!--<div id='gdiv'>-->
+            
+            <div id='container'>
+                
+                <div id='sidebar'>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/home.php">Home</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/addUser.html">Add User</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/createNewJob.html">Add Job</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/">LOGOUT</a>
+                </div>
+                <div id='container2'>
+                    
+                    <div id='dash'>
+                        <h2>New Job</h2>
+                    </div>
+                    
+                    <div>
+                        <form method="post" action="addUser.php" class="form-signin"> 
+                         
+                            First Name<br>
+                            <input type="text" id="Fname" class="form-control" required autofocus><br><!-- made changes to the input type-->
+
+                            Last Name<br>
+                            <input type="text" id="Lname" class="form-control" required autofocus><br>
+
+                            Email address<br>
+                            <input type="email" id="newEmail" class="form-control" required autofocus><br>
+
+                            Password<br>
+                            <input type="password" id="newpwrd" class="form-control"  required_minlength='8' placeholder=" Password" required><br>
+
+                            Verify Password<br>
+                            <input type="password" id="newpwrd2" class="form-control"  required_minlength='8' placeholder=" confirm Password" required><br>
+
+                            Telephone<br>
+                            <input type="text" id=telephone class="form-control" placeholder="eg DDD-DDD-DDDD" aria-describedby="telephoneDesc"/><br>
+            
+                            <button id="newUserBtn" class="btn btn-primary b" type="submit">Sign up</button>
+                            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

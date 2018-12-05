@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <!--- PUT COMMENTS ON THE CHANGES MADE PLEASE SO EVERYBODY CAN OVERS WHATS TAKING PLACE IN THE CODE--->
+    <head>
+        <title> HIRE ME</title>
+        <script type="text/javascript" src="createNewJob.js"></script>
+        <link href="styles/home.css" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <div id='top'>
+            <h2>Hireme</h2>
+        </div>
+        
+        <!--<div id='gdiv'>-->
+            
+            <div id='container'>
+                
+                <div id='sidebar'>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/home.php">Home</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/addUser.html">Add User</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/createNewJob.html">Add Job</a><br/>
+                    <a href="https://info2180-project3-rijkaa.c9users.io/">LOGOUT</a>
+                </div>
+                
+                <div id='container2'>
+                    
+                    <div id='dash'>
+                        <h2>Hire Me</h2>
+                        
+                    </div>
+                    
+                    <div>
+                        <h2>New Job</h2>
+                        
+                        <form method="post">  
+                        
+                            Job title<br>
+                            <input type="text" id="job_title" name="job_title" class="form-control" placeholder="e.g Senior Designer or Product Manager" required autofocus><br><!-- made changes to the input type-->
+  
+                            Job Description<br>
+                            <textarea id="job_description" name="job_description" rows="10" cols="30" input type="text" required></textarea><br>
+
+                             Category<br>
+                             <select id="category" name="category">
+                                
+                                <option value='blank'> select a category</option>
+                                <option value="Sales and Marketing">Sales and Marketing</option>
+                                <option value="Programming">Programming</option>
+                                <option value="Business and Management">Business and Management</option>
+                                <option value="Design">Design</option>
+                                <option value="Customer Support">Customer Support</option>
+                                <option value="DevOps and Sysadmin">DevOps and Sysadmin</option>
+                            </select><br>
+
+                             Company<br>
+                             <input id="company" name="company" type="text" class="form-control" required><br>
+
+                             Job Location<br>
+                             <input id="job_location" name ="job_location" type="text" placeholder="e.g Kingston,Jamaica" required autofocus><br><br>
+            
+                             <button id="newsignup" class="btn btn-primary b" type="submit">Submit</button>
+                            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                        </form>
+                    </div>
+               </div> 
+        </div>   
+        
+    </body>
+</html>
